@@ -1,0 +1,16 @@
+INSERT INTO ITEM_FISICO (ID_Item, Setor, Num_Gaveta, Prateleira, Disponibilidade) VALUES
+(1001, 'Técnico', 'G1', 'P1', 'Disponível'),
+(1002, 'Ficção', 'G2', 'P3', 'Emprestado'),
+(1003, 'Revistas', 'G3', 'P10', 'Disponível'),
+(1005, 'Mídia', 'G4', 'P15', 'Disponível'),
+(1006, 'Técnico', 'G1', 'P2', 'Disponível'),
+(1007, 'Aventura', 'G2', 'P4', 'Emprestado'),
+(1009, 'Biografia', 'G5', 'P12', 'Disponível'),
+(1011, 'Ciência', 'G6', 'P1', 'Disponível'),
+(1012, 'Romance', 'G2', 'P5', 'Disponível'),
+(1013, 'Revistas', 'G3', 'P11', 'Disponível'),
+(1014, 'Mídia', 'G4', 'P16', 'Disponível'),
+(1015, 'Design', 'G5', 'P13', 'Disponível'),
+(1017, 'História', 'G6', 'P2', 'Disponível'),
+(1018, 'Ficção', 'G2', 'P6', 'Emprestado'),
+(1020, 'Matemática', 'G1', 'P3', 'Disponível');
