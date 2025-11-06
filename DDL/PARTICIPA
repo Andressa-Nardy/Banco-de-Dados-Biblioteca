@@ -1,0 +1,15 @@
+CREATE TABLE PARTICIPA (
+    CPF_Usuario VARCHAR(11) NOT NULL,
+    ID_Evento INT NOT NULL,
+    
+    -- Chave Primária Composta
+    PRIMARY KEY (CPF_Usuario, ID_Evento),
+    
+    -- Chave Estrangeira para USUARIO
+    CONSTRAINT FK_Participa_Usuario FOREIGN KEY (CPF_Usuario)
+        REFERENCES USUARIO (CPF),
+        
+    -- Chave Estrangeira para EVENTOS
+    CONSTRAINT FK_Participa_Evento FOREIGN KEY (ID_Evento)
+        REFERENCES EVENTOS (ID_Evento)
+);
