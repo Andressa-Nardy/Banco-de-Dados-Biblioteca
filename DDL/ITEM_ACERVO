@@ -4,5 +4,4 @@ CREATE TABLE ITEM_ACERVO (
     Genero VARCHAR(50),
     Autor VARCHAR(100),
     Ano_Publicacao INT,
-    Tipo_Item VARCHAR(50)
 );
