@@ -1,0 +1,10 @@
+CREATE TABLE ACESSO_EVENTO (
+    ID_Evento INT,
+    CPF_Usuario VARCHAR(11),
+    Data_Acesso DATE DEFAULT CURRENT_DATE,
+    PRIMARY KEY (ID_Evento, CPF_Usuario, Data_Acesso),
+    CONSTRAINT FK_AcessoEvento_Evento FOREIGN KEY (ID_Evento)
+        REFERENCES EVENTOS(ID_Evento),
+    CONSTRAINT FK_AcessoEvento_Usuario FOREIGN KEY (CPF_Usuario)
+        REFERENCES USUARIO(CPF)
+);
