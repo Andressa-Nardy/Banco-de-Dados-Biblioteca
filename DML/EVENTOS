@@ -1,26 +1,62 @@
-INSERT INTO EVENTOS (ID_Evento, Nome_Evento, Tipo, Data_Inicio, Data_Fim, Outras_Relacionadas, ID_Infra) VALUES
-(1, 'Workshop de SQL Básico', 'Workshop', '2024-11-10', '2024-11-10', 'Foco em Modelagem', 9),
-(2, 'Feira de Livros 2024', 'Feira', '2024-12-05', '2024-12-07', 'Lançamento de 10 títulos', 11),
-(3, 'Palestra: Futuro da IA', 'Palestra', '2024-11-15', '2024-11-15', 'Requer inscrição prévia', 1),
-(4, 'Reunião do Comitê de Acervo', 'Reunião', '2024-11-08', '2024-11-08', NULL, 2),
-(5, 'Clube de Leitura: Ficção', 'Clube', '2024-11-20', '2024-11-20', 'Discussão sobre "O Código Perdido"', 4),
-(6, 'Treinamento de Redes', 'Treinamento', '2024-11-25', '2024-11-26', 'Módulo 1: Fundamentos', 18),
-(7, 'Lançamento do E-book de UX/UI', 'Lançamento', '2024-12-01', '2024-12-01', NULL, 24),
-(8, 'Curso de Java Avançado', 'Curso', '2025-01-10', '2025-01-12', 'Inscrições em Janeiro', 10),
-(9, 'Exposição de Arte Moderna', 'Exposição', '2024-12-15', '2024-12-20', 'Aberta ao público', 22),
-(10, 'Apresentação de TCCs', 'Apresentação', '2024-12-10', '2024-12-10', NULL, 1),
-(11, 'Aula de Culinária Vegana', 'Aula Prática', '2024-11-12', '2024-11-12', 'Vagas limitadas', 21),
-(12, 'Reunião de Equipe Marketing', 'Reunião', '2024-11-18', '2024-11-18', NULL, 3),
-(13, 'Workshop de Fotografia', 'Workshop', '2025-02-05', '2025-02-05', 'Técnicas de Luz e Sombra', 17),
-(14, 'Sessão de Gravação de Podcast', 'Gravação', '2024-11-07', '2024-11-07', NULL, 13),
-(15, 'Simpósio de Neurociência', 'Simpósio', '2025-03-01', '2025-03-02', 'Participação de 5 palestrantes internacionais', 1);
-(16, 'Encontro de Poetas', 'Encontro', '2024-11-28', '2024-11-28', NULL, 12),
-(17, 'Treinamento de Liderança', 'Treinamento', '2024-11-29', '2024-11-29', 'Foco em Gestão de Pessoas', 19),
-(18, 'Palestra: Economia Verde', 'Palestra', '2025-01-20', '2025-01-20', NULL, 24),
-(19, 'Lançamento de Livro: História', 'Lançamento', '2024-12-12', '2024-12-12', NULL, 17),
-(20, 'Reunião de Planejamento 2025', 'Reunião', '2024-12-03', '2024-12-03', NULL, 25),
-(21, 'Curso de Cibersegurança', 'Curso', '2025-01-25', '2025-01-26', 'Introdução e Defesa', 18),
-(22, 'Sessão de Meditação Guiada', 'Sessão', '2024-11-14', '2024-11-14', NULL, 16),
-(23, 'Maratona de Leitura', 'Maratona', '2025-02-15', '2025-02-15', NULL, 15),
-(24, 'Reunião de Projetos DevOps', 'Reunião', '2024-11-11', '2024-11-11', NULL, 5),
-(25, 'Festa de Fim de Ano', 'Confraternização', '2024-12-18', '2024-12-18', NULL, 11);
+INSERT EVENTOS (30)
+INSERT INTO EVENTOS (ID_Evento, Nome_Evento, Tipo, Data_Inicio, Data_Fim, Obras_Relacionadas, ID_Infra) VALUES
+
+(1, 'Workshop sobre Programação 1', 'Reunião', '2023-11-28', '2025-11-09', NULL, 2),
+
+(2, 'Oficina sobre Segurança 2', 'Palestra', '2024-09-10', '2024-11-17', NULL, 22),
+
+(3, 'Oficina sobre Metodologias 3', 'Sessão', '2024-04-20', '2025-07-17', NULL, 27),
+
+(4, 'Oficina sobre Programação 4', 'Curso', '2025-07-01', '2025-10-30', NULL, 9),
+
+(5, 'Palestra sobre Empreendedorismo 5', 'Feira', '2025-07-24', '2025-12-04', NULL, 21),
+
+(6, 'Palestra sobre Design 6', 'Lançamento', '2023-08-19', '2025-08-18', NULL, 8),
+
+(7, 'Curso sobre Design 7', 'Oficina', '2025-12-01', '2025-12-18', NULL, 5),
+
+(8, 'Palestra sobre Segurança 8', 'Simpósio', '2025-05-11', '2025-06-19', 'Observação 8', 3),
+
+(9, 'Feira sobre Programação 9', 'Oficina', '2024-12-07', '2025-08-02', NULL, 2),
+
+(10, 'Palestra sobre Programação 10', 'Simpósio', '2025-07-28', '2025-12-24', NULL, 28),
+
+(11, 'Oficina sobre Programação 11', 'Lançamento', '2023-06-07', '2024-06-01', NULL, 25),
+
+(12, 'Feira sobre Programação 12', 'Exposição', '2025-07-05', '2025-11-21', 'Observação 12', 16),
+
+(13, 'Palestra sobre Design 13', 'Simpósio', '2024-10-10', '2024-10-24', NULL, 11),
+
+(14, 'Simpósio sobre Empreendedorismo 14', 'Simpósio', '2025-06-11', '2025-07-23', NULL, 30),
+
+(15, 'Palestra sobre Metodologias 15', 'Exposição', '2023-06-28', '2024-08-04', NULL, 3),
+
+(16, 'Simpósio sobre Programação 16', 'Curso', '2025-11-04', '2025-12-03', 'Observação 16', 2),
+
+(17, 'Curso sobre Programação 17', 'Oficina', '2024-01-03', '2025-04-12', NULL, 11),
+
+(18, 'Feira sobre Design 18', 'Simpósio', '2024-02-14', '2024-05-07', NULL, 1),
+
+(19, 'Simpósio sobre Metodologias 19', 'Workshop', '2024-05-24', '2025-01-08', NULL, 25),
+
+(20, 'Simpósio sobre IA 20', 'Workshop', '2024-02-09', '2024-08-31', NULL, 20),
+
+(21, 'Palestra sobre Segurança 21', 'Curso', '2024-09-27', '2025-09-04', NULL, 19),
+
+(22, 'Palestra sobre Programação 22', 'Feira', '2025-07-25', '2025-10-27', 'Observação 22', 20),
+
+(23, 'Oficina sobre Empreendedorismo 23', 'Palestra', '2025-08-05', '2025-09-15', NULL, 4),
+
+(24, 'Oficina sobre IA 24', 'Feira', '2025-01-10', '2025-12-22', NULL, 13),
+
+(25, 'Simpósio sobre Segurança 25', 'Palestra', '2025-01-27', '2025-12-14', 'Observação 25', 4),
+
+(26, 'Simpósio sobre Design 26', 'Sessão', '2025-09-02', '2025-09-17', NULL, 12),
+
+(27, 'Oficina sobre Programação 27', 'Oficina', '2023-08-10', '2025-01-09', NULL, 1),
+
+(28, 'Feira sobre Programação 28', 'Palestra', '2024-08-17', '2025-12-21', NULL, 21),
+
+(29, 'Feira sobre Empreendedorismo 29', 'Curso', '2024-08-19', '2024-11-17', NULL, 20),
+
+(30, 'Oficina sobre Programação 30', 'Lançamento', '2024-08-20', '2025-10-16', NULL, 11);
