@@ -1,4 +1,4 @@
- INSERT ITEM_ACERVO (30)
+INSERT ITEM_ACERVO (30)
 INSERT INTO ITEM_ACERVO (ID_Item, Titulo, Genero, Autor, Ano_Publicacao) VALUES
 
 (1, 'Introdução de SQL 1', 'Biografia', 'Yuri Barros', 2003),
