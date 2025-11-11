@@ -1,19 +1,13 @@
 CREATE TABLE EMPRESTIMO (
-    ID_Item INT NOT NULL,
-    Num INT NOT NULL,
-    CPF_Usuario VARCHAR(11) NOT NULL,
+    ID_Item INT,
+    Num INT,
+    CPF_Usuario VARCHAR(11),
     Data_Emprestimo DATE NOT NULL,
     Data_Devolucao_Prevista DATE,
     Data_Devolucao_Real DATE,
-    
-    -- Chave Primária Composta (Identificador do Empréstimo)
     PRIMARY KEY (ID_Item, Num, CPF_Usuario, Data_Emprestimo),
-    
-    -- Chave Estrangeira para EXEMPLAR
     CONSTRAINT FK_Emprestimo_Exemplar FOREIGN KEY (ID_Item, Num)
-        REFERENCES EXEMPLAR (ID_Item, Num),
-        
-    -- Chave Estrangeira para USUARIO
+        REFERENCES EXEMPLAR(ID_Item, Num),
     CONSTRAINT FK_Emprestimo_Usuario FOREIGN KEY (CPF_Usuario)
-        REFERENCES USUARIO (CPF)
+        REFERENCES USUARIO(CPF)
 );
