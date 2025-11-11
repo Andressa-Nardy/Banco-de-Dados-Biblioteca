@@ -1,26 +1,62 @@
+INSERT USUARIOS (30)
 INSERT INTO USUARIO (CPF, Nome, Email, Data_Cadastro) VALUES
-('11122233301', 'Ana Silva', 'ana.silva@email.com', '2022-01-15'),
-('22233344402', 'Bruno Costa', 'bruno.costa@email.com', '2022-02-20'),
-('33344455503', 'Carla Mendes', 'carla.mendes@email.com', '2022-03-10'),
-('44455566604', 'Daniel Almeida', 'daniel.almeida@email.com', '2022-04-05'),
-('55566677705', 'Elisa Rocha', 'elisa.rocha@email.com', '2022-05-12'),
-('66677788806', 'Felipe Santos', 'felipe.santos@email.com', '2022-06-25'),
-('77788899907', 'Gabriela Lima', 'gabriela.lima@email.com', '2022-07-30'),
-('88899900008', 'Henrique Souza', 'henrique.souza@email.com', '2022-08-18'),
-('99900011109', 'Irene Pires', 'irene.pires@email.com', '2022-09-01'),
-('00011122210', 'João Pereira', 'joao.pereira@email.com', '2022-10-10'),
-('10120230311', 'Leticia Barros', 'leticia.barros@email.com', '2023-01-05'),
-('20230340412', 'Marcos Oliveira', 'marcos.oliveira@email.com', '2023-02-14'),
-('30340450513', 'Natália Gomes', 'natalia.gomes@email.com', '2023-03-22'),
-('40450560614', 'Osvaldo Vieira', 'osvaldo.vieira@email.com', '2023-04-11'),
-('50560670715', 'Paula Ferreira', 'paula.ferreira@email.com', '2023-05-01'),
-('60670780816', 'Quirino Ramos', 'quirino.ramos@email.com', '2023-06-19'),
-('70780890917', 'Raquel Nogueira', 'raquel.nogueira@email.com', '2023-07-27'),
-('80890901018', 'Sérgio Martins', 'sergio.martins@email.com', '2023-08-08'),
-('90901012119', 'Tatiane Rocha', 'tatiane.rocha@email.com', '2023-09-17'),
-('01012123220', 'Ubiratan Melo', 'ubiratan.melo@email.com', '2023-10-25'),
-('12131415121', 'Viviane Dantas', 'viviane.dantas@email.com', '2024-01-01'),
-('23242526222', 'Wellington Neves', 'wellington.neves@email.com', '2024-02-09'),
-('34353637323', 'Xênia Ribeiro', 'xenia.ribeiro@email.com', '2024-03-15'),
-('45464748424', 'Yuri Caldas', 'yuri.caldas@email.com', '2024-04-20'),
-('56575859525', 'Zélia Pinheiro', 'zelia.pinheiro@email.com', '2024-05-05');
+
+('10000000001', 'Viviane Almeida', 'viviane.almeida1@exemplo.edu', '2023-02-21'),
+
+('10000000002', 'Yuri Pires', 'yuri.pires2@exemplo.edu', '2024-05-16'),
+
+('10000000003', 'Henrique Rocha', 'henrique.rocha3@exemplo.edu', '2023-07-29'),
+
+('10000000004', 'Wellington Caldas', 'wellington.caldas4@exemplo.edu', '2023-06-28'),
+
+('10000000005', 'Tatiane Vieira', 'tatiane.vieira5@exemplo.edu', '2023-03-07'),
+
+('10000000006', 'Ana Mendes', 'ana.mendes6@exemplo.edu', '2024-03-23'),
+
+('10000000007', 'Henrique Nogueira', 'henrique.nogueira7@exemplo.edu', '2023-02-24'),
+
+('10000000008', 'Sérgio Lima', 'sérgio.lima8@exemplo.edu', '2025-05-09'),
+
+('10000000009', 'Henrique Ferreira', 'henrique.ferreira9@exemplo.edu', '2024-07-23'),
+
+('10000000010', 'Renato Martins', 'renato.martins10@exemplo.edu', '2023-01-14'),
+
+('10000000011', 'Zélia Moreira', 'zélia.moreira11@exemplo.edu', '2023-11-23'),
+
+('10000000012', 'Xênia Vieira', 'xênia.vieira12@exemplo.edu', '2024-11-27'),
+
+('10000000013', 'Irene Rocha', 'irene.rocha13@exemplo.edu', '2024-03-16'),
+
+('10000000014', 'Fernanda Pinheiro', 'fernanda.pinheiro14@exemplo.edu', '2024-11-20'),
+
+('10000000015', 'Daniel Mendes', 'daniel.mendes15@exemplo.edu', '2025-02-17'),
+
+('10000000016', 'Daniel Oliveira', 'daniel.oliveira16@exemplo.edu', '2024-12-05'),
+
+('10000000017', 'Ubiratan Pires', 'ubiratan.pires17@exemplo.edu', '2023-03-30'),
+
+('10000000018', 'Yuri Ferreira', 'yuri.ferreira18@exemplo.edu', '2023-09-13'),
+
+('10000000019', 'Lucas Gomes', 'lucas.gomes19@exemplo.edu', '2023-06-11'),
+
+('10000000020', 'Sérgio Pereira', 'sérgio.pereira20@exemplo.edu', '2025-01-10'),
+
+('10000000021', 'Tatiane Lima', 'tatiane.lima21@exemplo.edu', '2023-05-23'),
+
+('10000000022', 'Bruno Neves', 'bruno.neves22@exemplo.edu', '2024-04-11'),
+
+('10000000023', 'Zélia Pereira', 'zélia.pereira23@exemplo.edu', '2023-06-13'),
+
+('10000000024', 'Rafael Souza', 'rafael.souza24@exemplo.edu', '2023-07-26'),
+
+('10000000025', 'Natália Pires', 'natália.pires25@exemplo.edu', '2025-07-17'),
+
+('10000000026', 'Viviane Castro', 'viviane.castro26@exemplo.edu', '2025-01-17'),
+
+('10000000027', 'Felipe Oliveira', 'felipe.oliveira27@exemplo.edu', '2024-12-28'),
+
+('10000000028', 'Gabriela Neves', 'gabriela.neves28@exemplo.edu', '2024-06-30'),
+
+('10000000029', 'Xênia Correia', 'xênia.correia29@exemplo.edu', '2023-05-27'),
+
+('10000000030', 'Ubiratan Dantas', 'ubiratan.dantas30@exemplo.edu', '2023-12-17');
