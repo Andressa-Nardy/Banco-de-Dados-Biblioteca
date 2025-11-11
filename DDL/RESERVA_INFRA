@@ -1,17 +1,11 @@
 CREATE TABLE RESERVA_INFRA (
-    CPF_Usuario VARCHAR(11) NOT NULL,
-    ID_Infra INT NOT NULL,
+    ID_Infra INT,
+    CPF_Usuario VARCHAR(11),
     Data_Reserva_Inicio DATE NOT NULL,
-    Data_Reserva_Fim DATE NOT NULL,
-    
-    -- Chave Primária Composta
-    PRIMARY KEY (CPF_Usuario, ID_Infra, Data_Reserva_Inicio),
-    
-    -- Chave Estrangeira para USUARIO
-    CONSTRAINT FK_Reserva_Usuario FOREIGN KEY (CPF_Usuario)
-        REFERENCES USUARIO (CPF),
-        
-    -- Chave Estrangeira para INFRAESTRUTURA
-    CONSTRAINT FK_Reserva_Infra FOREIGN KEY (ID_Infra)
-        REFERENCES INFRAESTRUTURA (ID_Infra)
+    Data_Reserva_Fim DATE,
+    PRIMARY KEY (ID_Infra, CPF_Usuario, Data_Reserva_Inicio),
+    CONSTRAINT FK_ReservaInfra_Infra FOREIGN KEY (ID_Infra)
+        REFERENCES INFRAESTRUTURA(ID_Infra),
+    CONSTRAINT FK_ReservaInfra_Usuario FOREIGN KEY (CPF_Usuario)
+        REFERENCES USUARIO(CPF)
 );
