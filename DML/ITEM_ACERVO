@@ -1,31 +1,62 @@
+ INSERT ITEM_ACERVO (30)
 INSERT INTO ITEM_ACERVO (ID_Item, Titulo, Genero, Autor, Ano_Publicacao) VALUES
-(1001, 'Aventuras em SQL', 'Técnico', 'B. Data', 2021),
-(1002, 'O Código Perdido', 'Ficção', 'A. Dev', 2019),
-(1003, 'Receitas de Banco de Dados', 'Culinária', 'C. Chef', 2020),
-(1004, 'História da Computação', 'História', 'D. Logic', 2018),
-(1005, 'Mundos Paralelos', 'Ficção Científica', 'E. Cosmos', 2022),
-(1006, 'Guia de Python', 'Técnico', 'F. Code', 2023),
-(1007, 'Jornada no Tempo', 'Aventura', 'G. Explorer', 2015),
-(1008, 'A Arte de Modelar', 'Design', 'H. Sketch', 2021),
-(1009, 'Grandes Biografias', 'Biografia', 'I. Writer', 2017),
-(1010, 'Introdução ao Java', 'Técnico', 'J. Backend', 2023),
-(1011, 'Teoria das Cordas', 'Ciência', 'K. Physic', 2019),
-(1012, 'O Jardim Secreto', 'Romance', 'L. Flower', 2020),
-(1013, 'Revista DB World #1', 'Técnico', 'M. Editor', 2024),
-(1014, 'Filme: O Resgate', 'Ação', 'N. Action', 2021),
-(1015, 'Arquitetura Moderna', 'Design', 'O. Build', 2022),
-(1016, 'Fundamentos de Redes', 'Técnico', 'P. Connect', 2018),
-(1017, 'Mitologia Grega', 'História', 'Q. Legend', 2016),
-(1018, 'Viagem Intergaláctica', 'Ficção Científica', 'R. Star', 2023),
-(1019, 'Design UX/UI', 'Design', 'S. Interface', 2024),
-(1020, 'Cálculo Avançado', 'Matemática', 'T. Math', 2020),
-(1021, 'Programação C#', 'Técnico', 'U. Code', 2022),
-(1022, 'Poemas do Mar', 'Poesia', 'V. Poet', 2019),
-(1023, 'Documentário: Vida Selvagem', 'Documentário', 'W. Wild', 2021),
-(1024, 'Economia Global', 'Economia', 'X. Wealth', 2018),
-(1025, 'Marketing Digital', 'Negócios', 'Y. Ad', 2023),
-(1026, 'Filosofia Clássica', 'Filosofia', 'Z. Thinker', 2017),
-(1027, 'Desenvolvimento Web', 'Técnico', 'A. Front', 2024),
-(1028, 'Teatro Moderno', 'Arte', 'B. Stage', 2020),
-(1029, 'Revista Tech News #5', 'Técnico', 'C. Editor', 2023),
-(1030, 'Álbum Musical: Jazz Classics', 'Música', 'D. Note', 2019);
+
+(1, 'Introdução de SQL 1', 'Biografia', 'Yuri Barros', 2003),
+
+(2, 'Manual de Redes 2', 'Design', 'Sérgio Ferreira', 2004),
+
+(3, 'Prática de Design 3', 'Ciência', 'Paula Souza', 2002),
+
+(4, 'Avançado de Cibersegurança 4', 'Ficção', 'Bruno Dantas', 2017),
+
+(5, 'Fundamentos de Python 5', 'Design', 'Felipe Vieira', 2015),
+
+(6, 'Avançado de Redes 6', 'Biografia', 'Beatriz Costa', 2005),
+
+(7, 'Prática de SQL 7', 'Biografia', 'Irene Correia', 2014),
+
+(8, 'História de Fotografia 8', 'Poesia', 'Wellington Ribeiro', 2015),
+
+(9, 'Guia de Redes 9', 'Ciência', 'Gabriela Nogueira', 2001),
+
+(10, 'Fundamentos de Matemática 10', 'Técnico', 'Bruno Rocha', 2015),
+
+(11, 'Guia de SQL 11', 'Poesia', 'Carla Martins', 2005),
+
+(12, 'Introdução de Arquitetura 12', 'Ficção', 'Wellington Martins', 2007),
+
+(13, 'Prática de Python 13', 'Economia', 'Henrique Rocha', 2019),
+
+(14, 'Fundamentos de Arquitetura 14', 'Ficção', 'Osvaldo Neves', 2018),
+
+(15, 'Teoria de Economia 15', 'Design', 'Wellington Ribeiro', 2010),
+
+(16, 'Manual de Economia 16', 'Biografia', 'Elisa Neves', 2020),
+
+(17, 'História de UX/UI 17', 'Romance', 'Lucas Pinheiro', 2002),
+
+(18, 'Fundamentos de UX/UI 18', 'Economia', 'Tatiane Almeida', 2002),
+
+(19, 'Manual de Cibersegurança 19', 'Ciência', 'Elisa Correia', 2011),
+
+(20, 'Introdução de Redes 20', 'Romance', 'João Santos', 2014),
+
+(21, 'História de Arquitetura 21', 'Poesia', 'Ana Neves', 2017),
+
+(22, 'História de Python 22', 'História', 'Irene Almeida', 2003),
+
+(23, 'Guia de Economia 23', 'Ciência', 'Ubiratan Lima', 2022),
+
+(24, 'Teoria de Redes 24', 'Ciência', 'Raquel Ramos', 2008),
+
+(25, 'Fundamentos de Python 25', 'Biografia', 'Mariana Pires', 2001),
+
+(26, 'Fundamentos de Matemática 26', 'História', 'Viviane Pires', 2005),
+
+(27, 'Avançado de Cibersegurança 27', 'Biografia', 'Sérgio Silva', 2003),
+
+(28, 'Introdução de Design 28', 'Poesia', 'Bruno Castro', 2011),
+
+(29, 'Guia de Fotografia 29', 'História', 'Bruno Pereira', 2011),
+
+(30, 'Fundamentos de Matemática 30', 'Design', 'Wellington Souza', 2021);
