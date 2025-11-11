@@ -1,17 +1,62 @@
+INSERT EXEMPLAR (30)
 INSERT INTO EXEMPLAR (ID_Item, Num, Disponivel) VALUES
-(1001, 1, TRUE), (1001, 2, TRUE), (1001, 3, FALSE),
-(1002, 1, FALSE), (1002, 2, TRUE),
-(1003, 1, TRUE), (1003, 2, TRUE), (1003, 3, TRUE),
-(1005, 1, TRUE),
-(1006, 1, FALSE), (1006, 2, TRUE),
-(1007, 1, FALSE),
-(1009, 1, TRUE),
-(1011, 1, TRUE), (1011, 2, TRUE),
-(1012, 1, TRUE), (1012, 2, TRUE), (1012, 3, TRUE), (1012, 4, TRUE),
-(1013, 1, TRUE),
-(1014, 1, TRUE),
-(1015, 1, TRUE),
-(1017, 1, TRUE),
-(1018, 1, FALSE),
-(1020, 1, TRUE);
--- TOTAL EXEMPLAR: 25 Registros
+
+(1, 1, FALSE),
+
+(1, 2, FALSE),
+
+(2, 1, FALSE),
+
+(2, 2, FALSE),
+
+(3, 1, TRUE),
+
+(3, 2, FALSE),
+
+(4, 1, TRUE),
+
+(4, 2, TRUE),
+
+(5, 1, FALSE),
+
+(5, 2, FALSE),
+
+(6, 1, TRUE),
+
+(6, 2, TRUE),
+
+(7, 1, FALSE),
+
+(7, 2, TRUE),
+
+(8, 1, TRUE),
+
+(8, 2, TRUE),
+
+(9, 1, TRUE),
+
+(9, 2, TRUE),
+
+(10, 1, TRUE),
+
+(10, 2, FALSE),
+
+(11, 1, TRUE),
+
+(11, 2, FALSE),
+
+(12, 1, FALSE),
+
+(12, 2, TRUE),
+
+(13, 1, FALSE),
+
+(13, 2, FALSE),
+
+(14, 1, FALSE),
+
+(14, 2, TRUE),
+
+(15, 1, TRUE),
+
+(15, 2, TRUE);
